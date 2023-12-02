@@ -19,11 +19,11 @@ const DynamicStarsCanvas = dynamic(() => import("@/components/canvas/Stars"), {
 });
 
 export default function Home() {
-  const [isClient, setIsClient] = useState(false);
+  // const [isClient, setIsClient] = useState(false);
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
+  // useEffect(() => {
+  //   setIsClient(true);
+  // }, []);
   return (
     <BrowserRouter>
       <div className="relative z-0 gradient-bg-welcome">
@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="relative z-0">
           <Contact />
-          {isClient && <DynamicStarsCanvas />}
+          {/* {isClient && <DynamicStarsCanvas />} */}
         </div>
         <Footer />
       </div>
