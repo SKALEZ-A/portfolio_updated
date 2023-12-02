@@ -11,8 +11,19 @@ import Navbar from "@/components/Navbar";
 import StarsCanvas from "@/components/canvas/Stars";
 import Tech from "@/components/Tech";
 import Footer from "@/components/Footer";
+import { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
+
+const DynamicStarsCanvas = dynamic(() => import("@/components/canvas/Stars"), {
+  ssr: false,
+});
 
 export default function Home() {
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
   return (
     <BrowserRouter>
       <div className="relative z-0 gradient-bg-welcome">
@@ -28,7 +39,7 @@ export default function Home() {
 
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {isClient && <DynamicStarsCanvas />}
         </div>
         <Footer />
       </div>
