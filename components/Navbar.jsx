@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 import { navLinks } from "../app/constants";
 import { skalez_skalez_logo, menu, close } from "../public/assets";
 import skalez_logo from "@/public/assets/skalez_logo.png";
@@ -37,7 +37,7 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/"
+          href="/"
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");

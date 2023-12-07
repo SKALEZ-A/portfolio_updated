@@ -35,10 +35,9 @@ import reactjs from "@/public/assets/tech/reactjs.png";
 import redux from "@/public/assets/tech/redux.png";
 import tailwind from "@/public/assets/tech/tailwind.png";
 import nodejs from "@/public/assets/tech/nodejs.png";
-import mongodb from "@/public/assets/tech/mongodb.png";
+import solidity from "@/public/assets/tech/solidity.png";
 import git from "@/public/assets/tech/git.png";
-import figma from "@/public/assets/tech/figma.png";
-import docker from "@/public/assets/tech/docker.png";
+import hardhat from "@/public/assets/tech/hardhat.png";
 
 import backend_img from "../../public/assets/backend.png";
 import { web } from "@/public/assets";
@@ -98,10 +97,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -110,25 +106,19 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
+
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "hardhat",
+    icon: hardhat,
   },
+
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Solidity",
+    icon: solidity,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
