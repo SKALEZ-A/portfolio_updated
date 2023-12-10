@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "@heroicons/react": "^2.0.18",
     "@react-three/drei": "^9.88.17",
     "@react-three/fiber": "^8.15.11",
     "framer-motion": "^10.16.5",

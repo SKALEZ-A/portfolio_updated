@@ -226,6 +226,7 @@ const projects = [
     image: NFT,
     // source_code_link: "https://avatar-project-ochre.vercel.app/",
     source_code_link: "https://github.com/SKALEZ-A/LW3-Nft-collection/",
+    previewUrl: "https://skaleznft.vercel.app/",
   },
   {
     name: "Horizon Portfolio Tracker",
@@ -247,6 +248,7 @@ const projects = [
     ],
     image: horizon_dapp,
     source_code_link: "https://github.com/SKALEZ-A/horizon-swap",
+    previewUrl: "https://horizon-swap.vercel.app/",
   },
   {
     name: "Web3 wallet Dapp",
@@ -267,7 +269,8 @@ const projects = [
       },
     ],
     image: wallet,
-    source_code_link: "https://web3-wallet-sample.vercel.app",
+    source_code_link: "https://github.com/SKALEZ-A/Web3-Wallet-sample",
+    previewUrl: "https://web3-wallet-sample.vercel.app",
   },
   {
     name: "Avatar Airdrop Protocol",
@@ -288,7 +291,7 @@ const projects = [
       },
     ],
     image: avatarproject,
-    source_code_link: "https://avatar-project-ochre.vercel.app/",
+    previewUrl: "https://avatar-project-ochre.vercel.app/",
   },
 ];
 
