@@ -25,6 +25,8 @@ import {
   threejs,
 } from "../../public/assets";
 import avatarproject from "@/public/assets/avatarproject.png";
+import marble from "@/public/assets/marble.png";
+import infinity from "@/public/assets/infinity.jpg";
 import horizon_dapp from "@/public/assets/horizon-dapp.png";
 import NFT from "@/public/assets/project-1.png";
 import wallet from "@/public/assets/project-2.png";
@@ -292,6 +294,52 @@ const projects = [
     ],
     image: avatarproject,
     previewUrl: "https://avatar-project-ochre.vercel.app/",
+  },
+
+  // infinity perp
+  {
+    name: "Infinity Perpetual Trading Bot",
+    description:
+      "An intuitive Telegram bot that allows you manage your portfolio, gives real time market analysis, customize alerts, gives trading signals, also integrated with popular exchanges.",
+    tags: [
+      {
+        name: "Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Orderly network",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Telegram bot",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: infinity,
+    previewUrl: "https://infinity-xi-seven.vercel.app/",
+  },
+
+  // marble protocol
+  {
+    name: "Marble Protocol",
+    description:
+      "A decentralized dex aggregator that allows you to bridge assets between blockchains without the need to wait for hours using native bridges, pioneering cross chain innovations",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "squidrouter",
+        color: "green-text-gradient",
+      },
+      {
+        name: "axelar",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: marble,
+    previewUrl: "https://marble-dex.vercel.app/",
   },
 ];
 
